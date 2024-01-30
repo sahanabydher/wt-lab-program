@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Content</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+
+        .content-container {
+            margin-top: 20px;
+        }
+
+        .image-container img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 8px;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            max-width: 600px;
+            height: 315px;
+            border-radius: 8px;
+        }
+
+        .running-message {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+
+        .link-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .link-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Image -->
+    <div class="content-container">
+        <div class="image-container">
+            <img src="https://placekitten.com/600/400" alt="Cute Kitten">
+        </div>
+
+        <!-- Video -->
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/FFcZ8MVYqRs?si=b8VXP8UHoxzOH7xb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <!-- Running Message -->
+        <div class="running-message">
+            <marquee behavior="scroll" direction="left">This is a running message. Scroll, scroll, scroll...</marquee>
+        </div>
+
+        <!-- Link to Another Page -->
+        <a href="https://www.w3schools.com/" class="link-button">Visit Another Page</a>
+    </div>
+
+</body>
+</html>
+
+
